@@ -1,0 +1,27 @@
+.cadre{
+    border:20px solid darkblue;
+    display: inline-block;
+    margin:20%;
+    height: 500px;
+    align-content: center;
+    margin-top: 50px;
+    width: 60%;
+    
+}
+
+.Joueur1{
+    float: left;
+    margin-top: 100px;
+
+}
+
+.logovs{
+    float: left;
+    margin-top: 100px;
+}
+
+
+.Joueur2{
+    float: left;
+    margin-top: 100px;
+}
