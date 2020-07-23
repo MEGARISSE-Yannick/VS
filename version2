@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(29, 29, 151);
+}
+.cadre{   
+    background-color: firebrick;<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS</title>
+    <link rel="stylesheet" href="frogsheet.css" />
+</head>
+
+<body>
+    
+    <div class="cadre">
+        <div class="Joueur1">
+            <img class="minato" src="https://zupimages.net/up/20/30/ahzd.jpg" alt=" ">
+            <h1>Player1</h1>
+        </div>
+
+        <div class="logovs">
+            <img src="https://zupimages.net/up/20/30/1vn3.png" alt="">
+        </div>
+        <div class="Joueur2">
+            <img class="itachi" src="https://zupimages.net/up/20/30/8x1t.jpg" alt="">
+            <h1>Player2</h1>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+    display:flex;
+    justify-content:space-around;
+    border:20px solid #f9e0a8;
+    margin:20%;
+    height: auto;
+    margin-top: 50px;
+}
+h1{
+    border:2px solid #f9e0a8;
+    color: #f9e0a8;
+    display: flex;
+    justify-content: center;
+}
+.Joueur1, .logovs, .Joueur2{
+   
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.minato:hover, .itachi:hover{
+    filter: brightness(50%);
+}
